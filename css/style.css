@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { 
+    font-family: "GilroyBold";
+    src: url("../fonts/GilroyBold.eot");
+    src: url("../fonts/GilroyBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyBold.ttf") format("woff"),
+    url("../fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../fonts/GilroyMedium.eot");
+    src: url("../fonts/GilroyMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyMedium.woff") format("woff"),
+    url("../fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "GilroyBold";
+}
+
+.container {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1400px;
+}
+
+header {
+    padding: 30px 0;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu_item {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a {
+    color: #828282;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+hr {
+    background-color: #828282;
+    width: 100%;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.Home {
+    width: 100%;
+}
+
+.Home-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home-title {
+    font-size: 47px;
+}
+
+.Home-subtitle {
+    font-size: 18px;
+    font-family: "GilroyMedium";
+}
+
+li {
+    list-style: none;
+}
+
+.Home-lang {
+    transform: rotate(-90deg);
+}
+
+.my-image {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.About-me {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.About-me-title {
+    font-size: 34px;
+}
+
+.About-me-subtitle {
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: "GilroyMedium";
+}
+
+.Skills {
+    width: 100%;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.Skills-title {
+    font-size: 34px;
+}
+
+.Skills-subtitle {
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: "GilroyMedium";
+}
+
+.programs {
+    font-family: "GilroyBold";
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.program {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.program-text {
+    color: #828282;
+}
+
+.Portfolio {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.Portfolio-title {
+    font-size: 34px;
+}
+
+.portfolio-item {
+    width: 80%;
+    margin: 60px 10%;
+    background-color: #ffffff;
+}
+
+.Contacts {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.Contacts-title {
+    font-size: 34px;
+}
+
+.Contacts-subtitle {
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: "GilroyMedium";
+}
+
+button {
+    margin: 40px 0;
+    background-color: black;
+    border-radius: 25px;
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

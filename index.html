@@ -7,16 +7,25 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width-device-width, initail-scale=1.0">
     <title>Песняков Игорь</title>
 
 </head>
 
 <body>
     <div class="container">
+        <div class="icon" id="js_icon">
+            <div class="hamburger" id="js_hamburger">
+                <hr class="hamburger-top">
+                <hr class="hamburger-center">
+                <hr class="hamburger-down">
+            </div>
+        </div>
+        
          <header>
             <nav>
-                <ul type="none" class="menu">
+                <ul type="none" class="menu" id="js_menu">
                     <li><a href="#Home" class="menu_item">Главная</a></li>
                     <li><a href="#About-me" class="menu_item">Обо мне</a></li>
                     <li><a href="#Skills" class="menu_item">Навыки</a></li>
@@ -26,7 +35,7 @@
             </nav>
         </header>
 
-        <hr>
+        <hr class="horizontal">
 
         <section id="Home">
             <div class="Home">
@@ -95,10 +104,13 @@
                     <br>
                     Добро пожаловать!
                 </div>
-                <a href="https://vk.com/small_update"><button>Отправить сообщение</button></a>
+                <a href="https://vk.com/small_update"><div class="button">Отправить <br> сообщение</div></a>
             </div>
         </section>
     </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

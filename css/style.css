@@ -189,6 +189,11 @@ li {
     font-family: "GilroyMedium";
 }
 
+.btn {
+    width: 20%;
+    margin: 0 auto;
+}
+
 .button {
     margin: 40px auto;
     padding: 10px 0;
@@ -196,8 +201,6 @@ li {
     border-radius: 25px;
     border: solid 2px black;
     font-size: 18px;
-    width: 20%;
-    padding: auto 0;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -263,7 +266,7 @@ li {
 
 @media screen and (max-width: 992px)
 {
-    .button {
+    .btn {
         width: 30%;
     }
 
